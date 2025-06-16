@@ -15,36 +15,9 @@ Status Distribution Analysis: Analyzes the distribution of player statuses (RETA
 Data Consistency Checks: Validates and potentially corrects inconsistencies related to base price (in lacs), final price (in lacs), and franchise columns based on the player's status.
 
 Data Source
-The data used in this analysis is from the iplauction2023.csv file, which is assumed to be present in the project directory.
+The data used in this analysis is from the iplauction2023.csv file, which is assumed to be present in the project directory
 
-Installation and Setup
-This project requires Python and the Pandas library.
-
-Clone the repository:
-
-git clone https://github.com/your-username/ipl-auction-2023-analysis.git
-cd ipl-auction-2023-analysis
-
-(Note: Replace your-username/ipl-auction-2023-analysis with your actual GitHub repository details.)
-
-Install dependencies:
-If you don't have Pandas installed, you can install it using pip:
-
-pip install pandas
-
-Place the data file:
-Ensure the iplauction2023.csv file is placed in the root directory of the cloned repository.
-
-Usage
-To run the analysis script, simply execute the Python script containing the analysis code.
-
-python your_analysis_script_name.py
-
-(Note: Replace your_analysis_script_name.py with the actual name of your Python script.)
-
-The script will print initial data insights, status distributions, and any data consistency warnings to the console.
-
-Analysis Highlights
+#Analysis Highlights
 The analysis provides initial insights into:
 
 The overall structure of the IPL 2023 auction data.
@@ -65,4 +38,4 @@ Contributing
 Contributions are welcome! If you have suggestions for improvements, new analyses, or bug fixes, please open an issue or submit a pull request.
 
 License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the MIT License
